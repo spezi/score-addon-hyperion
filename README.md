@@ -34,6 +34,13 @@ sudo pacman -S flatbuffers
 brew install flatbuffers
 ```
 
+## init ossia score development
+```bash
+$ git clone --recursive -j16 https://github.com/ossia/score
+$ cd score
+$ ./tools/developer.sh
+```
+
 ## Building
 
 1. Clone this repository into your score addons directory
@@ -42,8 +49,12 @@ brew install flatbuffers
 ```bash
 cd score/src/addons
 git clone https://github.com/yourname/score-addon-hyperion
-cd ../..
-cmake --build build
+cd build-developer
+cmake .
+cd ..
+cmake --build build-developer
+#cd ../..
+#cmake --build build
 ```
 
 ## Usage
