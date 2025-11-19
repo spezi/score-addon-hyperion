@@ -1,0 +1,10 @@
+{
+  "name": "Hyperion support",
+  "raw_name": "score-addon-hyperion",
+  "version": "1.0",
+  "kind": "addon",
+  "short": "Support for Hyperion LED controller output",
+  "long": "This addon provides Hyperion output device for controlling LED strips via FlatBuffers protocol",
+  "small": "https://raw.githubusercontent.com/OSSIA/score-addon-tutorial/master/Deployment/icon.png",
+  "key": "b8c4e5a1-f3d2-4e6b-a9c8-7d1e3f5b2a4c"
+}
