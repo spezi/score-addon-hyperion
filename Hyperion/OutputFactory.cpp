@@ -113,9 +113,9 @@ const Device::DeviceSettings& OutputFactory::defaultSettings() const noexcept
     set.host = "127.0.0.1";
     set.port = 19400;
     set.priority = 150;
-    set.origin = "ossia score";
-    set.width = 1920;
-    set.height = 1080;
+    set.origin = "ossiascore";
+    set.width = 1280;
+    set.height = 720;
     set.rate = 30.;
     s.deviceSpecificSettings = QVariant::fromValue(set);
     return s;

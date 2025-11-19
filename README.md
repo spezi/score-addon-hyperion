@@ -21,6 +21,8 @@ ossia score addon for Hyperion LED controller output via FlatBuffers protocol.
 ```bash
 sudo apt install libflatbuffers-dev flatbuffers-compiler
 ```
+on my ubuntu 22 machine i had to compile flatbuffers and install and then copy 
+/usr/local/bin/flatc to /usr/bin after that ossia score compiles with addon
 
 **Arch Linux:**
 ```bash
